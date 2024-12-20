@@ -1,0 +1,129 @@
+                body {
+                    margin: 0;
+                }
+                
+                .main-login {
+                    width: 100vw;
+                    height: 100vh;
+                    background-color: #ECF0F1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .left-login {
+                    width: 50vw;
+                    height: 100vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                .left-login>h1 {
+                    color: #566573;
+                    font-family: 'League Spartan', sans-serif;
+                    font-weight: 800;
+                    font-size: 4vw;
+                }
+                
+                .left-img {
+                    width: 35vw;
+                }
+                
+                .right-login {
+                    width: 50vw;
+                    height: 100vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .card-login {
+                    width: 60%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 30px 35px;
+                    background: #85C1E9;
+                    border-radius: 20px;
+                    box-shadow: 0px 10px 40px #566573;
+                }
+                
+                .card-login>h1 {
+                    color: #566573;
+                    font-weight: 800;
+                    font-family: 'League Spartan', sans-serif;
+                    letter-spacing: 5px;
+                }
+                
+                .textfield {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin: 10px 0;
+                }
+                
+                .textfield>input {
+                    width: 100%;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 15px;
+                    background: #D6EAF8;
+                    color: #566573;
+                    font-size: 20px;
+                    font-family: 'League Spartan', sans-serif;
+                    box-shadow: #566573;
+                    outline: none;
+                    box-sizing: border-box;
+                }
+                
+                .textfield>label {
+                    color: #566573;
+                    font-size: 20px;
+                    font-family: 'League Spartan', sans-serif;
+                }
+                
+                .btn-login {
+                    width: 50%;
+                    padding: 16px 0px;
+                    margin: 25px;
+                    border: none;
+                    border-radius: 8px;
+                    outline: none;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    background: #D4AC0D;
+                    cursor: pointer;
+                    font-family: 'League Spartan', sans-serif;
+                    font-weight: 600;
+                }
+                
+                .btn-login:hover {
+                    background: #F1C40F;
+                }
+                
+                .btn-cadastrar {
+                    width: 50%;
+                    padding: 16px 0px;
+                    border: none;
+                    border-radius: 8px;
+                    outline: none;
+                    text-transform: uppercase;
+                    background: #D4AC0D;
+                    cursor: pointer;
+                    font-family: 'League Spartan', sans-serif;
+                    font-weight: 600;
+                    letter-spacing: 3px;
+                }
+                
+                .btn-cadastrar:hover {
+                    background: #F1C40F;
+                }
+                
+                .btn-cadastrar a {
+                    text-decoration: none;
+                    color: black;
+                }
